@@ -9,18 +9,11 @@ using System.Windows.Forms;
 
 namespace MardonDance
 {
-    public partial class frmNewContact : Form
+    public partial class frmNewStudent : Form
     {
-
-        public frmNewContact()
+        public frmNewStudent()
         {
             InitializeComponent();
-        }
-
-        protected override void OnLoad(EventArgs e)
-        {
-            base.OnLoad(e);
-            this.cboRelationship.SelectedIndex = 0;
         }
     }
 }
